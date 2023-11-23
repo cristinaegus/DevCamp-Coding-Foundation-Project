@@ -1,0 +1,16 @@
+.navigation-wrapper>.search-icon i::after {
+content:  \f002;
+font-family: "Font Awesome 6 Free";
+font-weight: 400;
+}
+
+.page-container>.left-column-section>.text-initial-homepage p::after {
+
+content: \f256;
+font-family: "Font Awesome 6 Free";
+font-weight: 400;
+}
+.ul {
+    display:inline-block;
+}
+

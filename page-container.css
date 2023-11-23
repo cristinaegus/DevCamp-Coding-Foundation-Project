@@ -1,0 +1,120 @@
+.page-container {
+    display:grid;
+    grid-template-columns: 0.5fr 1fr;
+    justify-content: center;
+ 
+}
+.page-container{
+    position: relative;
+    background-color: rgb(41, 43, 41);
+    width: 100%;
+    height: 100%;
+}
+.page-container> .left-column-section>.text-initial-homepage {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;
+    font-size: 21px;
+    font-weight: lighter;
+    color:rgb(141, 138, 135);
+    padding: 12px;
+}
+.page-container> .left-column-section>.text-initial-homepage span {
+    font-family: 'Noto Sans', sans-serif;
+    color:whitesmoke;
+    font-weight: bold;
+}
+
+.page-container> .left-column-section>.text-second-homepage {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight:100;
+    color:rgb(141, 138, 135);
+    padding: 12px;
+}
+
+.page-container>.right-column-section{
+    display:block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.page-container>.right-column-section>.Image-title  {
+    font-family: 'Noto Sans', sans-serif;
+    color:whitesmoke;
+    font-weight: lighter;
+   
+    
+}
+
+.page-container>.right-column-section>.Image-title span {
+    font-family: 'Noto Sans', sans-serif;
+    color:rgb(14, 73, 112);
+    
+}
+  
+.page-container> .left-column-section>.text-initial-homepage i{
+    font-size: 1em;
+    color:#f07474;
+}
+
+
+.page-container>.left-column-section>.button-signupforfree {
+    display:inline-block;
+    text-align: center;
+}
+.page-container>.left-column-section>.button-signupforfree {
+    background-color:darkgreen;
+    color:black;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: 1px solid darkgreen;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    
+}
+.page-container>.left-column-section>.button-learnmore {
+    display:inline-block;
+    text-align: center;
+}
+.page-container>.left-column-section>.button-learnmore {
+    background-color:black;
+    color:white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    
+}
+
+
+.page-container>.boxes.block,ol {
+    display:inline-block;
+    text-justify: center;
+    text-align: center;
+    color:white;
+    outline-color: rgb(170, 160, 146);
+    padding: 1em;
+    background-color:#222425 ;
+}
+
+.boxes>.boxes.block {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+ 
+}
+.boxes ol {
+    width: 200px;
+    height: 20px;
+   
+}
+ 
+
+ 
