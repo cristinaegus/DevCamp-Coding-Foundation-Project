@@ -5,3 +5,6 @@ I had some issues with the placement of some of the elements of the page, and th
 I have place all the files on this 
 github 
 The main Homepage is in Index3.html file . The rest of the HTML files are empty they are only being created to se if links of the navbar are working , also I add some animation to the nav links.
+
+
+Cristina Egusquiza
